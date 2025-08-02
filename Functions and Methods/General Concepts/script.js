@@ -1,3 +1,10 @@
+// str.length
+// str.indices
+// string method always return a new value
+// strings are immutable in js
+// arrays are mutable
+
+
 function myFunction(){
     console.log("Hello World")
 }
@@ -39,3 +46,23 @@ arrowMul(3,4);
 // without parameters and {}
 let hello = () => console.log("Learn JS");
 hello();
+// callback functions in js (functions can be passed as a parameter)
+//for.each(higher order function)
+let arr = [1,2,3,4,5];
+arr.forEach(function myfunc(val){
+   console.log(val,"This is the no");
+});
+//callback in the form of arrow function
+let arrSecond = [1,2,3,4,5];
+arrSecond.forEach((val) => {
+console.log(val,"This is the Secondno");
+});
+//3 parameters of for.each (index,value,array)
+let arrThird = ["lahore","karachi","islamabad"]
+arrThird.forEach((val,idx,arrThird)=>
+{
+    console.log(val.toUpperCase(),idx,arrThird);
+}
+)
+//highr order functons or methods: which take another function as a parameter or returns a function as a value.
+// map method : same works as for each just creates a new array of the result.
