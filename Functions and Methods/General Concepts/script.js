@@ -66,3 +66,21 @@ arrThird.forEach((val,idx,arrThird)=>
 )
 //highr order functons or methods: which take another function as a parameter or returns a function as a value.
 // map method : same works as for each just creates a new array of the result.
+let digit = [234,635,353]
+let newArr = digit.map((value)=>
+{
+    return value;
+})
+console.log(newArr);
+//filter method
+let j = [1,2,4,6,7,2]
+let newArray = j.filter((value) => {
+    return value ==2;
+})
+console.log(newArray);
+//reduce method
+const red = [1,2,,6,4,6,9]
+let newRed = red.reduce((pre,curr)=>{
+    return pre>curr ? pre : curr;
+})
+console.log(newRed)

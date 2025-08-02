@@ -35,6 +35,7 @@ let e=2;
 console.log(c==1);
 console.log(c!=1);
 console.log(d!==e);
+//ternary operator
 
 let x=100;
 let y=200;

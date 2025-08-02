@@ -5,3 +5,9 @@ console.log("Js");
 {
     console.log(val*val);
  })
+//reduce method
+const red = [1,2,,6,4,6,9]
+let newRed = red.reduce((pre,curr)=>{
+    return pre>curr ? pre : curr;
+})
+console.log(newRed)
