@@ -1,0 +1,7 @@
+.box{
+    border: 2px solid black;
+    height: 82px;
+    width: 82px;
+    background-color: blueviolet;
+    gap:5px;
+}
