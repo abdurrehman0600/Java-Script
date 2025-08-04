@@ -26,3 +26,5 @@ document.b.style.font = "bold";
 let div = document.querySelector("div");
 console.dir(div);
 //output:fruits/apple etc
+
+
