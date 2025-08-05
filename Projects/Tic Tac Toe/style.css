@@ -1,0 +1,36 @@
+ .text{
+    text-align: center;
+    color:#d4bca2
+ }
+.box{
+height:60vh;
+width: 40vw;
+display:flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 5px;}
+.container{
+      background-color: #48341f;
+      height:95vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.btn{
+   width:11vw;
+   height:18vh;
+   gap: 5px;
+   border-radius: 20px;
+   background-color: #d4bca2;
+}
+.btns{
+   width:8vw;
+   height:9vh;
+   gap: 5px;
+   border-radius: 20px;
+   background-color: #d4bca2;
+   color:#48341f;
+   font-size: 18px;
+}
