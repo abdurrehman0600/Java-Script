@@ -22,7 +22,9 @@ document.b.style.font = "bold";
 //innertext:returns the text content of the element and its children(parent,child,sibling)
 //innerhtml: returns the plan text or html contents in the elements
 //textcontent: returns textual content even for hidden elements
-//learn -->firstchild/lastchild --> comment/text and element nodes
+//mdn documentation
+// firstchild/lastchild --> comment/text and element nodes
+//append child() and remove child()
 let div = document.querySelector("div");
 console.dir(div);
 //output:fruits/apple etc
