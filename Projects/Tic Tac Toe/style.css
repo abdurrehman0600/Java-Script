@@ -1,4 +1,53 @@
- .text{
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:#004643;
+}
+.container{
+  text-align: center;
+}
+.ttt{
+  margin-bottom: 30px;
+}
+.board {
+  height:250px;
+  width: 250px;
+display:flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+  
+}
+
+.btn {
+  width: 80px;
+  height: 80px;
+  background-color: #faf4d3;
+}
+
+.result {
+  margin-top: 15px;
+}
+
+.hide {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+/* 
+
+
+.text{
     text-align: center;
     color:#d4bca2
  }
@@ -34,3 +83,6 @@ gap: 5px;}
    color:#48341f;
    font-size: 18px;
 }
+.hide{
+   display: none;
+} */
