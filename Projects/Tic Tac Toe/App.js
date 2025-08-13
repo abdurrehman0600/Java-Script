@@ -17,7 +17,7 @@ btns.forEach((btn) => {
       btn.innerText="X";
       turnO = true;
     }
-    btns.disabled = true; 
+    btn.disabled = true; 
      checkWinner()
   });
 });
@@ -33,9 +33,10 @@ btns.forEach((btn) => {
  }
 const checkWinner = () => {
   for (let pattern of winPatterns ){
- let pos1 = btns[[0]].innerText;
- let pos2 = btns[[1]].innerText;
- let pos3 = btns[[2]].innerText;
+let pos1 = btns[pattern[0]].innerText;
+let pos2 = btns[pattern[1]].innerText;
+let pos3 = btns[pattern[2]].innerText;
+
 
   if (pos1 !== "" && pos2!== "" && pos3!== "") {
       if(pos1 === pos2 && pos2 === pos3)
