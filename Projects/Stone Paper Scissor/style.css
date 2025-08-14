@@ -1,0 +1,57 @@
+.navbar{
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    
+    color: aliceblue;
+    font-size: 25px;
+}
+.gamebtns{
+/* border: 1px solid red; */
+display: flex;
+justify-content: center;
+height:200px;
+gap:30px;
+}
+#rock{
+    background-color: #0d3b66;
+    height: 120px;
+    margin-top: 40px;
+    border-radius:300px;
+    width: 80px;
+    color:azure;
+}
+#paper{
+    background-color: #faf0ca;
+     height: 120px;
+    margin-top: 40px;
+     border-radius:300px;
+    width: 80px;
+    color:#877735; ;
+}
+#scissor{
+    background-color: #f4d35e;
+     height: 120px;
+    margin-top: 40px;
+     border-radius:300px;
+    width: 80px;
+    color: #423a1b;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    height:100px;
+}
+.reset{
+    display: flex;
+    justify-content: center;
+}
+#resetbtn{ 
+    background-color: #111110;
+    height: 50px;
+    margin-top: 40px;
+    border-radius:300px;
+    width: 280px;
+    color: #f5f5f2;
+}
