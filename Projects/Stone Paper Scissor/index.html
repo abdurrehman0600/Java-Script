@@ -14,18 +14,22 @@
         </div>
     </nav>
     <div class="gamebtns">
-        <button id="rock"><i class="fa fa-hand-rock"></i> Rock </button>
-        <button id="paper"><i class="fa fa-hand-paper"></i> Paper </button>
-        <button id="scissor"><i class="fa fa-hand-scissors"></i> Scissors </button>
+        <button class="choice" id="rock"><i class="fa fa-hand-rock"></i> Rock </button>
+        <button class="choice" id="paper"><i class="fa fa-hand-paper"></i> Paper </button>
+        <button class="choice" id="scissor"><i class="fa fa-hand-scissors"></i> Scissors </button>
     </div>    
     <div CLASS="score ">
-        <p>0<br>YOU</p>
-        <p>0<br>COMP</p>
+        <div>
+             <p class="myscore"> 0 </p>
+             <p>YOU</p>
+        </div>
+        <div>
+              <p  class="compscore"> 0 </p>
+              <p>COMP</p>
+        </div>
     </div>
-    <div class="reset">
-        <button id="resetbtn">
-            Rock Beats Scissors
-        </button>
+    <div class="msgbox">
+           <p class="msg">Play Game</p>
     </div>
     <script src="script.js"></script>
 </body>
