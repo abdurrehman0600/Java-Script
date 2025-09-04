@@ -8,7 +8,6 @@ const productPackage = {
 console.log(productPackage);
 const profile = {
      fName : "shradhakapoor",
-     
      followers : 76345,
      following : 283423,
      posts : 12,
