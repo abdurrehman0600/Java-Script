@@ -24,4 +24,4 @@ json() method:
 */
 
 //request&response
-//mdn documentation
+//mdn documentations
