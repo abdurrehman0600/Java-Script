@@ -17,3 +17,17 @@ getData(1, () => {
         });
     });
 });
+
+// Promise Chain
+getData(1)
+  .then((res) => {
+    console.log(res);  // Data 1
+    return getData(2);
+  })
+  .then((res) => {
+    console.log(res);  // Data 2
+    return getData(3);
+  })
+  .then((res) => {
+    console.log(res);  // Data 3
+  });
