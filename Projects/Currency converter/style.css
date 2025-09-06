@@ -1,0 +1,44 @@
+/* *{
+    border:1px solid red;
+} */
+ .overall{
+    background-color: #4ea5ff;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+ }
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    height: 30%;
+    width:30%;
+    border-radius: 12px;
+}
+.btn{
+    background-color: #207bff;
+    margin-bottom: 30px;
+    margin-left: 85px;
+    height:32px;
+    width:165px;
+    border-radius: 5px;
+}
+.final{
+         margin-left: 85px;
+}
+.countries{
+   
+    display: flex;
+
+
+}
+.sign{
+    display: flex;
+    align-items: center;
+    padding:30px;
+}
+.text{
+    font-size: large;
+}
